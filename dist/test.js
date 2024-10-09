@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("../src/index");
-var assert = require("assert");
+var eiei = require("assert");
 var weight = 80;
 var height = 1.80;
 var bmi = (weight / (height * height)).toFixed(2);
