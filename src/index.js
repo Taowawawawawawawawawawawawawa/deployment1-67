@@ -8,6 +8,6 @@ function BMI(weight, height) {
         throw new Error("Height must be greater than 0");
     return (weight / (height * height)).toFixed(2);
 }
-const weight = 60;
-const height = 1.75;
+const weight = 80;
+const height = 1.80;
 console.log(`Your weight: ${weight} kg.\nYour height: ${height} m.\nYour BMI: ${BMI(weight, height)}`);

@@ -25,8 +25,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("./index");
 const assert = __importStar(require("assert"));
-const weight = 60;
-const height = 1.75;
+const weight = 80;
+const height = 1.80;
 const bmi = (weight / (height * height)).toFixed(2);
 assert.strictEqual((0, index_1.BMI)(weight, height), bmi, `Expected : ${bmi}\nResult : ${(0, index_1.BMI)(weight, height)}`);
 assert.throws(() => (0, index_1.BMI)(weight, 0), /Height must be greater than 0/, "Height must be greater than 0 test failed");

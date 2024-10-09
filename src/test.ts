@@ -2,7 +2,7 @@ import { BMI } from './index';
 import * as assert from 'assert';
 
 const weight = 80;
-const height = 181;
+const height = 1.80;
 const bmi = (weight / (height * height)).toFixed(2);
 
 assert.strictEqual(BMI(weight, height), bmi, `Expected : ${bmi}\nResult : ${BMI(weight, height)}`);
