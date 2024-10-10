@@ -19,7 +19,7 @@ class human {
         const result = BMI(w, h);
         assert.strictEqual(result, bmiMessage, `Expected: ${bmiMessage}\nResult: ${result}`);
         assert.throws(() => BMI(w, 0), /Height must be greater than 0/, "Height must be greater than 0 test failed");
-        console.log(bmiMessage);
+        console.log(bmiMessage+"\n------------------------------------------------------------");
     }
 }
 
@@ -36,4 +36,4 @@ user03.test(user03.weight, user03.height, user03.bmiMessage);
 let user04 = new human(90, 165);
 user04.test(user04.weight, user04.height, user04.bmiMessage);
 
-console.log('All tests passed');
+console.log('All tests passed \\:D/');
