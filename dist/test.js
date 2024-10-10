@@ -45,7 +45,7 @@ class human {
         this.bmiMessage = `Your weight: ${w} kg.\nYour height: ${this.height} m.\nYour BMI: ${bmi}`;
     }
 }
-let user01 = new human(75, 170);
+let user01 = new human(-75, 170);
 user01.test(user01.weight, user01.height * 100, user01.bmiMessage);
 let user02 = new human(60, 170);
 user02.test(user02.weight, user02.height * 100, user02.bmiMessage);
