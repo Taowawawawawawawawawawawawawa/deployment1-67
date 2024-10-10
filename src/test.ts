@@ -25,15 +25,15 @@ class human {
 
 
 let user01 = new human(75, 170);
-user01.test(user01.weight, user01.height * 100, user01.bmiMessage); 
+user01.test(user01.weight, user01.height, user01.bmiMessage); 
 
 let user02 = new human(60, 170);
-user02.test(user02.weight, user02.height * 100, user02.bmiMessage);
+user02.test(user02.weight, user02.height, user02.bmiMessage);
 
 let user03 = new human(67, 185);
-user03.test(user03.weight, user03.height * 100, user03.bmiMessage);
+user03.test(user03.weight, user03.height, user03.bmiMessage);
 
 let user04 = new human(90, 165);
-user04.test(user04.weight, user04.height * 100, user04.bmiMessage);
+user04.test(user04.weight, user04.height, user04.bmiMessage);
 
 console.log('All tests passed');
