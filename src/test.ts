@@ -24,7 +24,7 @@ class human {
 }
 
 
-let user01 = new human(75, 170);
+let user01 = new human(-75, 170);
 user01.test(user01.weight, user01.height, user01.bmiMessage); 
 
 let user02 = new human(60, 170);
